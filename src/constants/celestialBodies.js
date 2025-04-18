@@ -224,13 +224,29 @@ export const celestialBodies = [
 	 * Comets and asteroids
 	 */
 	{
+    key: 'ceres',
+    type: 'heliocentric',
+		epoch: 2460200.5, // 2023-Sep-13.0
+		inclination: 10.5868796009696,
+		node: 80.25497772273573,
+		perihelion: 73.42179714001003,
+		semiAxis: 2.767254360873952, // will be calculated if 0.0
+		dailyMotion: 0.0, // will be calculated
+		eccentricity: 0.0789125317658808,
+		anomaly: 60.0787728227207,
+		equinox: 2459919.898104763426,
+		magnitude: 3.33,
+		semiDiameter: 0.0,
+		perihelionDistance: 2.548883313217214
+	},
+	{
     key: 'chiron',
     type: 'heliocentric',
 		epoch: 2456000.5,
 		inclination: 6.926651533484328,
 		node: 209.3851130617651,
 		perihelion: 339.4595737215378,
-		semiAxis: 0.0, // will be calulated if 0.0
+		semiAxis: 0.0, // will be calculated if 0.0
 		dailyMotion: 0.0, // will be calculated
 		eccentricity: 0.3792037887546262,
 		anomaly: 114.8798253094007,
